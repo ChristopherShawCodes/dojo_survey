@@ -1,0 +1,38 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.main{
+    display: flex;
+    padding: 40px;
+    background-color: #636367;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #636367 10px ), repeating-linear-gradient( #dd983155, #dd9831 );
+    height: 930px;
+}
+.main_success{
+    display: flex;
+    padding: 40px;
+    background-color: #636367;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #636367 10px ), repeating-linear-gradient( #dd983155, #dd9831 );
+    height: 930px;
+}
+
+#form{
+    height: 700px;
+}
+
+.comment,.name,.location,.language,.submit{
+    padding-top: 30px;
+}
+
+#submit_button{
+    margin: 0 auto;
+}
+
+#name_input,#comment_input{
+    display: flex;
+    width: 500px;
+}
